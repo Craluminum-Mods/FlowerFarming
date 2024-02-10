@@ -1,0 +1,13 @@
+[
+    {
+        "ingredientPattern": "KP",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "P": { "type": "block", "code": "game:flower-rafflesia-*", "name": "color" }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "flowerfarming:seeds-rafflesia-{color}" }
+    }
+]

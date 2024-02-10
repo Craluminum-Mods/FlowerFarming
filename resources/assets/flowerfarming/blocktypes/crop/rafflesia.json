@@ -1,0 +1,69 @@
+{
+    "code": "crop",
+    "class": "BlockCrop",
+    "behaviors": [{ "name": "Unstable" }],
+    "variantgroups": [
+        { "code": "type", "states": ["rafflesia"] },
+        { "code": "color", "states": ["brown", "red"] },
+        { "code": "stage", "states": ["1", "2", "3", "4", "5", "6", "7", "8", "9"] }
+    ],
+    "creativeinventory": { "general": [""], "plants": [""] },
+    "renderpass": "OpaqueNoCull",
+    "randomizeRotations": true,
+    "shapeByType": {
+        "*-1": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.1 },
+        "*-2": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.2 },
+        "*-3": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.3 },
+        "*-4": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.4 },
+        "*-5": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.5 },
+        "*-6": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.6 },
+        "*-7": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.7 },
+        "*-8": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.8 },
+        "*-9": { "base": "game:block/plant/rafflesia/{color}", "scale": 0.9 },
+        "*": { "base": "game:block/plant/rafflesia/{color}", "scale": 1.0 }
+    },
+    "blockmaterial": "Plant",
+    "attributes": {
+        "foodTags": ["flower", "flowerCrop", "{type}", "{type}Crop"],
+        "butterflyFeed": false,
+        "beeFeed": false,
+        "tickGrowthProbability": 0.05,
+        "handbook": { "include": true }
+    },
+    "sideopaque": { "all": false },
+    "sidesolid": { "all": false },
+    "replaceable": 3000,
+    "lightAbsorption": 0,
+    "resistance": 0.5,
+    "sounds": {
+        "place": "game:block/plant",
+        "break": "game:block/plant",
+        "hit": "game:block/plant"
+    },
+    "rainPermeable": false,
+    "dropsByType": {
+        "*-9": [
+            { "type": "item", "code": "flowerfarming:seeds-{type}-{color}", "quantity": { "avg": 1.2 } },
+            { "type": "block", "code": "game:flower-{type}-{color}", "quantity": { "avg": 1, "var": 0 } }
+        ],
+        "*": [{ "type": "item", "code": "flowerfarming:seeds-{type}-{color}", "quantity": { "avg": 0.7 } }]
+    },
+    "cropProps": {
+        "requiredNutrient": "N",
+        "nutrientConsumption": 0,
+        "growthStages": 9,
+        // Growing time: 12 to 15 months, but lets keep it 3 months    // using worldgen temperatures
+        "totalGrowthMonths": 3,
+        "damageGrowthStuntMul": 0.75,
+        "coldDamageRipeMul": 0.5,
+        "coldDamageBelow": 30,
+        "heatDamageAbove": 50
+    },
+    "collisionbox": null,
+    "selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 10
+    }
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/debuffUnaffectedDrops/-",
+        "value": "flowerfarming:seeds-*",
+        "file": "game:blocktypes/soil/farmland.json",
+        "side": "Server"
+    }
+]

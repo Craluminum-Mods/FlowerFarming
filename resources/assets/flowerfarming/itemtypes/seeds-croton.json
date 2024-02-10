@@ -1,0 +1,68 @@
+{
+    "code": "seeds",
+    "class": "FlowerFarming.ItemPlantableSeed",
+    "behaviors": [{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }],
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "croton-small-crimson-brown-green",
+                "croton-small-crimson-green",
+                "croton-small-crimson-orange",
+                "croton-small-darkgreen-gold",
+                "croton-small-darkgreen-gold-crimson",
+                "croton-small-green-orange",
+                "croton-small-lemongreen",
+                "croton-small-lemongreen-crimson",
+
+                "croton-medium-crimson-brown-green",
+                "croton-medium-crimson-green",
+                "croton-medium-crimson-orange",
+                "croton-medium-darkgreen-gold",
+                "croton-medium-darkgreen-gold-crimson",
+                "croton-medium-green-orange",
+                "croton-medium-lemongreen",
+                "croton-medium-lemongreen-crimson"
+            ]
+        }
+    ],
+    "shape": { "base": "game:item/resource/seeds/seedbag" },
+    "textures": {
+        "seed": {
+            "baseByType": {
+                "*-darkgreen-gold": "flowerfarming:item/resource/seeds/croton-cream-green",
+                "*-darkgreen-gold-crimson": "flowerfarming:item/resource/seeds/croton-crimson-green",
+                "*-green-orange": "flowerfarming:item/resource/seeds/croton-pink-green",
+                "*-lemongreen-crimson": "flowerfarming:item/resource/seeds/croton-yellow-green",
+                "*-lemongreen": "flowerfarming:item/resource/seeds/croton-yellow-green",
+                "*-crimson-brown-green": "flowerfarming:item/resource/seeds/croton-crimson",
+                "*-crimson-green": "flowerfarming:item/resource/seeds/croton-crimson",
+                "*-crimson-orange": "flowerfarming:item/resource/seeds/croton-crimson"
+            }
+        }
+    },
+    "creativeinventory": { "general": ["*"], "items": ["*"] },
+    "materialDensity": 450,
+    "guiTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 159, "y": 148, "z": 0 },
+        "origin": { "x": 0.53, "y": 0.37, "z": 0.5 },
+        "scale": 1.99
+    },
+    "fpHandTransform": {
+        "rotation": { "x": 54, "y": 99, "z": -30 },
+        "scale": 1.34
+    },
+    "tpHandTransform": {
+        "translation": { "x": -1.67, "y": -1.25, "z": -0.8 },
+        "rotation": { "x": 70, "y": 11, "z": -65 },
+        "scale": 0.41
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0.2, "z": 0 },
+        "rotation": { "x": -4, "y": 8, "z": 0 },
+        "origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+        "scale": 1.92
+    }
+}

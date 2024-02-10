@@ -1,0 +1,176 @@
+{
+    "code": "crop",
+    "class": "BlockCrop",
+    "behaviors": [{ "name": "Unstable" }],
+    "variantgroups": [
+        { "code": "type", "states": ["lupine-blue", "lupine-orange", "lupine-purple", "lupine-red", "lupine-white"] },
+        { "code": "stage", "states": ["1", "2", "3", "4", "5", "6", "7", "8", "9"] }
+    ],
+    "creativeinventory": { "general": [""], "plants": [""] },
+    "renderpass": "OpaqueNoCull",
+    "randomizeRotations": true,
+    "shapeByType": {
+        // "blue", "orange", "purple", "red", "white"
+        "*-1": { "base": "game:block/plant/lupine/five-plants", "scale": 0.1 },
+        "*-2": { "base": "game:block/plant/lupine/five-plants", "scale": 0.2 },
+        "*-3": { "base": "game:block/plant/lupine/five-plants", "scale": 0.3 },
+        "*-4": { "base": "game:block/plant/lupine/five-plants", "scale": 0.4 },
+        "*-5": { "base": "game:block/plant/lupine/five-plants", "scale": 0.5 },
+        "*-6": { "base": "game:block/plant/lupine/five-plants", "scale": 0.6 },
+        "*-7": { "base": "game:block/plant/lupine/five-plants", "scale": 0.7 },
+        "*-8": { "base": "game:block/plant/lupine/five-plants", "scale": 0.8 },
+        "*-9": { "base": "game:block/plant/lupine/five-plants", "scale": 0.9 },
+        "*": { "base": "game:block/plant/lupine/five-plants", "scale": 1.0 }
+    },
+    "blockmaterial": "Plant",
+    "textures": {
+        "plant1a": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue1-a",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange1-a",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple1-a",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red1-a",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white1-a"
+            }
+        },
+        "plant1b": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue1-b",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange1-b",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple1-b",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red1-b",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white1-b"
+            }
+        },
+        "plant1astem": { "base": "game:block/plant/flower/stem/lupine/normal1-a" },
+        "plant1bstem": { "base": "game:block/plant/flower/stem/lupine/normal1-b" },
+
+        "plant2a": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue2-a",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange2-a",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple2-a",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red2-a",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white2-a"
+            }
+        },
+        "plant2b": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue2-b",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange2-b",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple2-b",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red2-b",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white2-b"
+            }
+        },
+        "plant2astem": { "base": "game:block/plant/flower/stem/lupine/normal2-a" },
+        "plant2bstem": { "base": "game:block/plant/flower/stem/lupine/normal2-b" },
+
+        "plant3a": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue3-a",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange3-a",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple3-a",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red3-a",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white3-a"
+            }
+        },
+        "plant3b": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue3-b",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange3-b",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple3-b",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red3-b",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white3-b"
+            }
+        },
+        "plant3astem": { "base": "game:block/plant/flower/stem/lupine/normal3-a" },
+        "plant3bstem": { "base": "game:block/plant/flower/stem/lupine/normal3-b" },
+
+        "plant4a": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue4-a",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange4-a",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple4-a",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red4-a",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white4-a"
+            }
+        },
+        "plant4b": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue4-b",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange4-b",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple4-b",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red4-b",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white4-b"
+            }
+        },
+        "plant4astem": { "base": "game:block/plant/flower/stem/lupine/normal4-a" },
+        "plant4bstem": { "base": "game:block/plant/flower/stem/lupine/normal4-b" },
+
+        "plant5a": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue5-a",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange5-a",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple5-a",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red5-a",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white5-a"
+            }
+        },
+        "plant5b": {
+            "baseByType": {
+                "*-blue-*": "game:block/plant/flower/petal/lupine/blue5-b",
+                "*-orange-*": "game:block/plant/flower/petal/lupine/orange5-b",
+                "*-purple-*": "game:block/plant/flower/petal/lupine/purple5-b",
+                "*-red-*": "game:block/plant/flower/petal/lupine/red5-b",
+                "*-white-*": "game:block/plant/flower/petal/lupine/white5-b"
+            }
+        },
+        "plant5astem": { "base": "game:block/plant/flower/stem/lupine/normal5-a" },
+        "plant5bstem": { "base": "game:block/plant/flower/stem/lupine/normal5-b" }
+    },
+    "attributes": {
+        "foodTags": ["flower", "flowerCrop", "{type}", "{type}Crop"],
+        "butterflyFeed": true,
+        "beeFeed": true,
+        "sitHeight": 0.8125,
+        "tickGrowthProbability": 0.05,
+        "handbook": { "include": true }
+    },
+    "sideopaque": { "all": false },
+    "sidesolid": { "all": false },
+    "replaceable": 3000,
+    "lightAbsorption": 0,
+    "resistance": 0.5,
+    "sounds": {
+        "place": "game:block/plant",
+        "break": "game:block/plant",
+        "hit": "game:block/plant"
+    },
+    "rainPermeable": false,
+    "dropsByType": {
+        "*-9": [
+            { "type": "item", "code": "flowerfarming:seeds-{type}", "quantity": { "avg": 1.2 } },
+            { "type": "block", "code": "game:flower-{type}-free", "quantity": { "avg": 1, "var": 0 } }
+        ],
+        "*": [{ "type": "item", "code": "flowerfarming:seeds-{type}", "quantity": { "avg": 0.7 } }]
+    },
+    "cropProps": {
+        "requiredNutrient": "N",
+        "nutrientConsumption": 0,
+        "growthStages": 9,
+        // Growing time: 2 years but lets keep it 3 months    // using worldgen temperatures
+        "totalGrowthMonths": 3,
+        "damageGrowthStuntMul": 0.75,
+        "coldDamageRipeMul": 0.5,
+        "coldDamageBelow": 1,
+        "heatDamageAbove": 19
+    },
+    "collisionbox": null,
+    "selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 10
+    }
+}
