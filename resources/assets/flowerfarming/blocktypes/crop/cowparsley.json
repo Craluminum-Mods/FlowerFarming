@@ -66,12 +66,12 @@
         "requiredNutrient": "N",
         "nutrientConsumption": 0,
         "growthStages": 9,
-        // Growing time: 2 years, but lets keep it 3 months    // using worldgen temperatures
-        "totalGrowthMonths": 3,
+        "totalGrowthMonths": 1,
         "damageGrowthStuntMul": 0.75,
         "coldDamageRipeMul": 0.5,
         "coldDamageBelow": 2,
         "heatDamageAbove": 20
+        // "totalGrowthMonths": 3,
     },
     "collisionbox": null,
     "selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },

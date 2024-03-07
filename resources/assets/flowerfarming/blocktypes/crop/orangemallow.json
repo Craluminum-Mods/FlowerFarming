@@ -62,12 +62,14 @@
         "requiredNutrient": "N",
         "nutrientConsumption": 10,
         "growthStages": 9,
-        // Growing time: no idea    // using worldgen temperatures
-        "totalGrowthMonths": 2.5,
+        "totalGrowthMonths": 1,
         "damageGrowthStuntMul": 0.75,
         "coldDamageRipeMul": 0.5,
-        "coldDamageBelow": 20,
-        "heatDamageAbove": 37
+        "coldDamageBelow": 15,
+        "heatDamageAbove": 40
+        // "totalGrowthMonths": 2.5,
+        // "coldDamageBelow": 20,
+        // "heatDamageAbove": 37
     },
     "collisionbox": null,
     "selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },

@@ -54,7 +54,6 @@
         "requiredNutrient": "N",
         "nutrientConsumption": 0,
         "growthStages": 9,
-        // Growing time: 5-10 years, lets keep it 1 month since it doesn't affect game balance    // using worldgen temperatures
         "totalGrowthMonths": 1,
         "damageGrowthStuntMul": 0.75,
         "coldDamageRipeMul": 0.5,

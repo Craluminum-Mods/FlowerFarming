@@ -66,12 +66,14 @@
         "requiredNutrient": "N",
         "nutrientConsumption": 0,
         "growthStages": 9,
-        // Growing time: 60 to 90 days    // using worldgen temperatures
-        "totalGrowthMonths": 2.95,
+        "totalGrowthMonths": 1,
         "damageGrowthStuntMul": 0.75,
         "coldDamageRipeMul": 0.5,
-        "coldDamageBelow": 22,
-        "heatDamageAbove": 25
+        "coldDamageBelow": 15,
+        "heatDamageAbove": 40
+        // "totalGrowthMonths": 2.95,
+        // "coldDamageBelow": 22,
+        // "heatDamageAbove": 25
     },
     "collisionbox": null,
     "selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },

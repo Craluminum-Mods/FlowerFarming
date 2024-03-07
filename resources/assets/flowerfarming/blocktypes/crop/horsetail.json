@@ -66,12 +66,13 @@
         "requiredNutrient": "N",
         "nutrientConsumption": 0,
         "growthStages": 9,
-        // Growing time: no idea, lets keep it 1 month since it doesn't affect game balance    // using worldgen temperatures
         "totalGrowthMonths": 1,
         "damageGrowthStuntMul": 0.75,
         "coldDamageRipeMul": 0.5,
-        "coldDamageBelow": 1,
-        "heatDamageAbove": 15
+        "coldDamageBelow": 0,
+        "heatDamageAbove": 25
+        // "coldDamageBelow": 1,
+        // "heatDamageAbove": 15
     },
     "collisionbox": null,
     "selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },
