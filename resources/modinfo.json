@@ -5,7 +5,7 @@
     "name": "Flower Farming",
     "description": "Adds seeds for propagating flowers, ferns, crotons and rafflesia on normal farmland",
     "authors": ["Craluminum2413"],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependencies": {
         "game": "1.19.0"
     }
